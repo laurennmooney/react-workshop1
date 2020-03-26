@@ -1,0 +1,21 @@
+.Contact {
+	display: inline-block;
+	margin: 20px;
+	padding: 10px;
+	width: 20%;
+	border: 1px black solid;
+}
+
+.insideContainer h3 {
+	margin: 0;
+}
+
+.insideContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.insideContainer img {
+	height: 50px;
+}

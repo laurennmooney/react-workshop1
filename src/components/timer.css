@@ -1,0 +1,29 @@
+.Timer {
+	border: 2px black solid;
+	background-color: lightgrey;
+	border-radius: 10px;
+	width: 10%;
+	padding: 10px;
+	margin: 10px;
+}
+
+.buttons {
+	display: flex;
+	justify-content: center;
+}
+
+.header,
+.time {
+	margin: 2px;
+	padding: 2px;
+}
+
+.Timer > .buttons > button {
+	display: inline;
+	border: 1px black solid;
+	border-radius: 3px;
+	padding: 5px;
+	margin: 5px;
+	background-color: rgb(101, 189, 189);
+	font-weight: bold;
+}

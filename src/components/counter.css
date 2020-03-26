@@ -1,0 +1,29 @@
+.Counter {
+	border: black solid 2px;
+	/* background-color: lightyellow; */
+	padding: 10px;
+	text-align: center;
+	margin: 10px;
+	width: 25%;
+	display: inline-block;
+}
+
+.Counter > h3,
+p {
+	margin: 0;
+	padding: 2px;
+}
+
+.negative {
+	color: rgb(212, 95, 95);
+}
+
+.Counter > button {
+	background-color: rgba(144, 238, 144, 0.726);
+	border: 1px black solid;
+	border-radius: 3px;
+	margin: 5px;
+	padding: 5px;
+	font-weight: bold;
+	width: 25%;
+}

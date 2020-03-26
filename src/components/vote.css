@@ -1,0 +1,49 @@
+.Vote {
+	display: flex;
+	flex-direction: column;
+	width: 35%;
+	margin: 10px;
+	padding: 10px;
+	border: black solid 2px;
+}
+
+.option {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.voteCounts {
+	display: flex;
+	justify-content: flex-end;
+}
+
+.choiceButtons {
+	text-align: center;
+}
+
+.choiceButtons > button {
+	margin: 5px 10px;
+	padding: 8px;
+	border: none;
+	border-radius: 5px;
+	font-weight: bold;
+	width: 25%;
+}
+
+.votesBar {
+	height: 5px;
+}
+
+.frontend {
+	background-color: lightsalmon;
+}
+
+.java {
+	background-color: lightgreen;
+}
+
+.csharp {
+	background-color: lightseagreen;
+	margin-bottom: 15px;
+}

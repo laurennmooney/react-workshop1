@@ -1,0 +1,27 @@
+.Weather {
+	border: 3px black solid;
+	padding: 15px;
+	text-align: center;
+	margin: 10px;
+	width: 50%;
+}
+
+#day {
+	margin-bottom: 10px;
+}
+
+.condition {
+	margin: 0 0 5px 0;
+}
+
+.Weather > p > label {
+	font-weight: bold;
+}
+
+.sunny {
+	background-color: #f4e393;
+}
+
+.rainy {
+	background-color: lightskyblue;
+}

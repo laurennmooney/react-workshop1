@@ -1,0 +1,50 @@
+- npx create-react-app in terminal will create a project (follow it up with the name of the project, of course)
+- it'll take some time, but once created, cd into the project, code . to open in VS Code, and npm start to run the project.
+    - runs at localhost:3000
+- App.js is the entry point to the app (like Angular).
+- Like Angular, React is a component-based framework
+
+- Components are going to be classes
+    - Each class has a render() method within the class.
+        - It returns HTML.
+        - div within it with className of the name of the component:
+        <div className='Counter'>
+    - You also have to export each component, so that it can be used in the main app.
+    - insert with <NameOfComponent /> into the renter return statement.
+    - Can link a stylesheet to the component with import './componentName.css' at the top of the component, with the import statements
+
+- React uses JSX:
+    - Looks a lot like HTML and helps React render HTML onto the web page. You literally write it in your JS files
+    - The render() method that each component has returns JSX to the webpage
+        - A major difference: in JSX you use className rather than class on the HTML attributes
+            - You'll actually get an error in the console on the hosted page to warn you about using className
+        - Additionally, it is htmlFor="" instead of for="".
+
+State:
+- this is the term for data.
+- for plugging in state into the JSX/view, you use single curly braces instead of double like in Angular
+- State is always an object with one or many key/value pairs
+- When updating the state with .setState, the function parameter will always be the prev/prevState.
+- In order to pass parameters to your handlers (aka, functions), you have to place an arrow function within the event handler:
+    ex: 
+    
+    handleEvent = parameter => {
+        function stuffs here
+    }
+
+    onClick={() => handleEvent(argument)}
+
+    - it will not work if you only do handleEvent(parameter).
+
+"UI is a function of state" is the main idea of React
+    - state changes call the render function which will cause the change in the UI.
+
+Props, or properties:
+- State belongs to the component itself, but props are used to bring in data from elsewhere and display it in the component.
+- The data is passed from a parent component to the child component.
+
+
+
+
+
+
